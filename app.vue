@@ -18,6 +18,7 @@ useSeoMeta({
   ogImage: "https://sopheak-hun.vercel.app/hero.jpg",
   ogUrl: "https://sopheak-hun.vercel.app/",
   ogType: "website",
+  ogSiteName: "Sopheak HUN Portfolio",
   twitterCard: "summary_large_image",
   twitterTitle: "Sopheak HUN - Portfolio | Web Developer",
   twitterDescription:
@@ -31,5 +32,5 @@ useSeoMeta({
     <Analytics />
     <NuxtPage />
   </NuxtLayout>
-  
+
 </template>
