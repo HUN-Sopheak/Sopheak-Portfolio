@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { SpeedInsights } from '@vercel/speed-insights/vue';
 const y = ref(0)
 
 const goTop = () => {
@@ -36,5 +37,6 @@ onMounted(() => {
       <div class="mb-10" />
     </div>
     <TheFooter />
+    <SpeedInsights />
   </div>
 </template>
