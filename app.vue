@@ -15,15 +15,15 @@ useSeoMeta({
   ogTitle: "Sopheak HUN - Portfolio | Web Developer",
   ogDescription:
     "Hi! I'm Sopheak HUN, a passionate Web Developer specializing in creating modern, responsive, and user-friendly websites.",
-  ogImage: "https://sopheak-hun.vercel.app/hero.jpg",
+  ogImage: "https://sopheak-hun.vercel.app/hero.jpg", // Fixed URL
   ogUrl: "https://sopheak-hun.vercel.app/",
   ogType: "website",
-  ogSiteName: "Sopheak HUN Portfolio",
+  ogSiteName: "Sopheak HUN Portfolio", // Added og:site_name
   twitterCard: "summary_large_image",
   twitterTitle: "Sopheak HUN - Portfolio | Web Developer",
   twitterDescription:
     "Hi! I'm Sopheak HUN, a passionate Web Developer specializing in creating modern, responsive, and user-friendly websites.",
-  twitterImage: "https://sopheak-hun.vercel.app/hero.jpg",
+  twitterImage: "https://sopheak-hun.vercel.app/hero.jpg", // Fixed URL
 });
 </script>
 
