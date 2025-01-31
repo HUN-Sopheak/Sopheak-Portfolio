@@ -31,4 +31,5 @@ useSeoMeta({
     <Analytics />
     <NuxtPage />
   </NuxtLayout>
+  
 </template>
