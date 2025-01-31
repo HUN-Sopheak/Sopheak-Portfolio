@@ -18,6 +18,7 @@ onMounted(() => {
 
 <template>
   <div class="selection:bg-green-200/60 dark:selection:bg-green-200/30">
+    <SpeedInsights />
     <TheHeader
       :y="y"
       :goTop="goTop" />
@@ -37,6 +38,6 @@ onMounted(() => {
       <div class="mb-10" />
     </div>
     <TheFooter />
-    <SpeedInsights />
+
   </div>
 </template>
