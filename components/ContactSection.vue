@@ -93,7 +93,7 @@
           </div>
           <button
             type="submit"
-            class="bg-primary hover:bg-blue-300 font-extrabold py-2.5 px-5 rounded-lg w-full">
+            class="text-slate-100 bg-primary hover:bg-blue-300 font-extrabold py-2.5 px-5 rounded-lg w-full">
             Send Message
           </button>
         </form>

@@ -1,5 +1,5 @@
-<script setup lang="ts">
-import resume from '~/assets/Hun_Sopheak_Resume.pdf'
+<script setup >
+import resume from '@/assets/Hun_Sopheak_Resume.pdf'
 
 import { HERO_SECTION } from '@/data/constants'
 </script>
@@ -9,16 +9,22 @@ import { HERO_SECTION } from '@/data/constants'
     id="hero"
     class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
     <div
-      class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
-      <h1 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
+      class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10 ">
+      <h1 class="font-semibold text-4xl sm:text-5xl md:text-6xl ">
+        <span class="typewriter">
         Hi! I'm
         <span class="poppins text-primary">Sopheak</span> HUN, <br />Web 
         <span class="poppins text-primary">Developer</span>
+        </span>
+
       </h1>
       <p class="text-base sm:text-lg md:text-xl text-balance">
-        {{ HERO_SECTION }}
+        <span class="">  {{ HERO_SECTION }} </span>
+      
       </p>
-
+      <!-- <div class="typing-container mt-4 text-lg text-secondary">
+        <span class="typing-text">Welcome to my portfolio! Check out my latest projects below.</span>
+      </div> -->
       <div class="flex gap-8 items-center justify-center">
         <a
           href="https://www.linkedin.com/in/sopheak-hun/"
@@ -73,3 +79,33 @@ import { HERO_SECTION } from '@/data/constants'
     </div>
   </section>
 </template>
+
+<!-- <style scoped>
+.typewriter {
+  display: inline-block; /* Ensures inline-block behavior for typing effect */
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 24ch; /* Adjust this value to fit your full text */
+  border-right: 2px solid black;
+  animation: typing 6s steps(30, end) forwards, blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0; /* Start with no visible text */
+  }
+  to {
+    width: 24ch; /* Matches the text length */
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: black;
+  }
+}
+</style> -->

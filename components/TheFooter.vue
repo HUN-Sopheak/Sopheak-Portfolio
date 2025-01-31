@@ -36,7 +36,6 @@ import moment from 'moment';
     </div>
     <section class="border-t border-primary py-2">
       <a
-        href="https://github.com/atalek/portfolio-template"
         target="_blank"
         class="md:text-lg flex items-center justify-center hover:text-primary"
         >© {{ moment().year() }} Portfolio Sopheak HUN

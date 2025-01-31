@@ -3,10 +3,11 @@ defineProps({
   title: { type: String, required: true },
   description: { type: String, required: true },
   imgUrl: { type: String, required: true },
+  icon: { type: String, },
 })
 </script>
 <template>
-  <div class="shadow-xl transition-all hover:scale-[1.03] hover:shadow-primary">
+  <div class="shadow-xl transition-all hover:scale-[1.03] hover:shadow-primary rounded-b-xl">
     <div
       class="h-52 md:h-72 rounded-t-xl relative group project-picture"
       :style="{

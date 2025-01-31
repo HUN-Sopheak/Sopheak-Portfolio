@@ -4,7 +4,7 @@ import { PROJECTS } from '@/data/constants'
 
 <template>
   <section
-    class="pt-60 flex flex-col gap-24"
+    class="pt-32 flex flex-col gap-24"
     id="projects">
     <div class="flex flex-col gap-2 text-center">
       <h3 class="text-large sm:text-xl md:text-2xl">A showcase of my professional work.</h3>

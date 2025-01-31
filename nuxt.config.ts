@@ -3,17 +3,17 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
   modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode',
-    '@vueuse/motion/nuxt',
-    'nuxt-icon',
-    '@nuxtjs/google-fonts',
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/color-mode",
+    "@vueuse/motion/nuxt",
+    "nuxt-icon",
+    "@nuxtjs/google-fonts",
   ],
 
-  css: ['~/assets/css/main.css'],
+  css: ["~/assets/css/main.css"],
 
   colorMode: {
-    classSuffix: '',
+    classSuffix: "",
   },
 
   googleFonts: {
@@ -25,7 +25,7 @@ export default defineNuxtConfig({
         wght: [100, 400],
       },
     },
-    display: 'swap',
+    display: "swap",
     prefetch: false,
     preconnect: false,
     preload: false,
@@ -33,11 +33,13 @@ export default defineNuxtConfig({
     base64: false,
   },
 
+  // plugins: ["~/plugins/luxy.js"],
+
   nitro: {
     prerender: {
       autoSubfolderIndex: false,
     },
   },
 
-  compatibilityDate: '2024-07-25',
-})
+  compatibilityDate: "2024-07-25",
+});

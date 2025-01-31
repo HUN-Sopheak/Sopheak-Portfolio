@@ -1,52 +1,28 @@
 <script setup lang="ts">
 useHead({
-  title: 'Sopheak HUN-Portfolio',
+  title: "Sopheak HUN - Portfolio | Web Developer",
   htmlAttrs: {
-    lang: 'en',
+    lang: "en",
   },
-  meta: [
-    { charset: 'UTF-8' },
-    { name: "viewport", content:"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" },
-    {
-      name: 'description',
-      content:
-        '',
-    },
-    { name: 'author', content: 'Sopheak HUN' },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: '/hero.jpg' },
-    {
-      property: 'og:title',
-      content: 'Sopheak HUN Portfolio',
-    },
-    {
-      property: 'og:image',
-      content:
-        '/hero.jpg',
-    },
-    {
-      property: 'og:description',
-      content:
-        "Hi! I'm Sopheak HUN, Web Developer",
-    },
+  link: [{ rel: "icon", type: "image/png", href: "/favicon-16.png" }],
+});
 
-    {
-      property: 'twitter:card',
-      content:
-        '/hero.jpg',
-    },
-    {
-      property: 'twitter:title',
-      content: 'Sopheak HUN Portfolio',
-    },
-    {
-      property: 'twitter:description',
-      content:
-        "Hi! I'm Sopheak HUN, Web Developer",
-    },
-  ],
-  link: [{ rel: 'icon', type: 'image/png', href: '/favicon-16.png' }],
-})
+useSeoMeta({
+  description:
+    "Hi! I'm Sopheak HUN, a passionate Web Developer specializing in creating modern, responsive, and user-friendly websites.",
+  author: "Sopheak HUN",
+  ogTitle: "Sopheak HUN - Portfolio | Web Developer",
+  ogDescription:
+    "Hi! I'm Sopheak HUN, a passionate Web Developer specializing in creating modern, responsive, and user-friendly websites.",
+  ogImage: "https://sopheak-hun.vercel.app/hero.jpg",
+  ogUrl: "https://sopheak-hun.vercel.app/",
+  ogType: "website",
+  twitterCard: "summary_large_image",
+  twitterTitle: "Sopheak HUN - Portfolio | Web Developer",
+  twitterDescription:
+    "Hi! I'm Sopheak HUN, a passionate Web Developer specializing in creating modern, responsive, and user-friendly websites.",
+  twitterImage: "https://sopheak-hun.vercel.app/hero.jpg",
+});
 </script>
 
 <template>
