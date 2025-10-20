@@ -45,4 +45,18 @@ export const PROJECTS = [
       'Developing a soccer website using Cloud Firestore for real-time data management and integrating live match streaming via an external API. The project focuses on delivering live scores, match schedules, and seamless video streaming for users.',
     image: '/voicesport.jpg',
   },
+  {
+    id: 4,
+    title: 'Hotel Management System',
+    description:"Created modules for invoicing, housekeeping, mail management, and expense tracking.Streamlined hotel operations with automation."
+      ,
+    image: '/hotel.jpg',
+  },
+  {
+    id: 5,
+    title: 'Human Resource Management System',
+    description:
+      'Developed modules for Department, Job Position, Allowance, Deduction, Staff, Payroll, and Payslip. Automated payroll and employee management processes.',
+    image: '/hr.jpg',
+  },
 ]

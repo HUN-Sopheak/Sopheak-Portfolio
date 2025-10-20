@@ -47,7 +47,7 @@
               <Icon
                 name="fa6-solid:envelope"
                 class="size-6" />
-                sopheakhun030@gmail.com</a
+                sopheakhun.dev@gmail.com</a
             >
           </div>
         </div>

@@ -1,5 +1,5 @@
 <script setup >
-import resume from '@/assets/Hun_Sopheak_Resume.pdf'
+import resume from '@/assets/Hun_Sopheak_Web_Development.pdf'
 
 import { HERO_SECTION } from '@/data/constants'
 </script>
