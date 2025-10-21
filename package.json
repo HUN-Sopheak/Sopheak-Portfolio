@@ -23,6 +23,8 @@
     "@vercel/speed-insights": "^1.1.0",
     "@vueuse/motion": "^2.2.3",
     "luxy.js": "^0.1.0",
-    "moment": "^2.30.1"
+    "moment": "^2.30.1",
+    "vee-validate": "^4.15.1",
+    "yup": "^1.7.1"
   }
 }
