@@ -40,7 +40,7 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    title: 'Soccer website (somlengkeilatv.com)',
+    title: 'Soccer website',
     description:
       'Developing a soccer website using Cloud Firestore for real-time data management and integrating live match streaming via an external API. The project focuses on delivering live scores, match schedules, and seamless video streaming for users.',
     image: '/voicesport.jpg',
