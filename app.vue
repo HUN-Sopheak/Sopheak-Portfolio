@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Analytics } from '@vercel/analytics/nuxt';
+import { Analytics } from "@vercel/analytics/nuxt";
 useHead({
   title: "Sopheak HUN - Portfolio | Web Developer",
   htmlAttrs: {
@@ -28,9 +28,10 @@ useSeoMeta({
 </script>
 
 <template>
-  <NuxtLayout>
-    <Analytics />
-    <NuxtPage />
-  </NuxtLayout>
-
+  <div class="lenis-wrapper">
+    <NuxtLayout>
+      <Analytics />
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>

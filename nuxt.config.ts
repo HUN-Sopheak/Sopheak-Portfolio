@@ -7,10 +7,13 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@vueuse/motion/nuxt",
     "nuxt-icon",
-    "@nuxtjs/google-fonts",
+    "@nuxtjs/google-fonts"
   ],
 
   css: ["~/assets/css/main.css"],
+  plugins:[
+    "~/plugins/lenis.client.ts"
+  ],
 
   colorMode: {
     classSuffix: "",
