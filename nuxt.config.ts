@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  ssr: true,
+  ssr: false,
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: "",
   },
-
+  spaLoadingTemplate:'./app-loading.html',
   googleFonts: {
     families: {
       Roboto: {
