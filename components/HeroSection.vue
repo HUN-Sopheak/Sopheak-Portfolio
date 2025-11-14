@@ -7,7 +7,7 @@ import { HERO_SECTION } from '@/data/constants'
 <template>
   <section
     id="hero"
-    class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
+    class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14 mt-5">
     <div
       class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10 ">
       <h1 class="font-semibold text-4xl sm:text-5xl md:text-6xl ">

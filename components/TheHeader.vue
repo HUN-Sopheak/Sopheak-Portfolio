@@ -77,14 +77,13 @@ function handleNav(href: string) {
   window.location.href = href
 }
 </script>
-
 <template>
   <header
     class="fixed w-full z-20 top-0 duration-200 px-4 border-b border-solid"
-    :class="{
-      'py-4 dark:bg-black bg-slate-200 border-primary border-b-2': y > 0,
-      'py-6 bg-transparent border-transparent': y <= 0
-    }"
+   :class="{
+  'py-4 dark:bg-black bg-slate-200 border-primary border-b-2': y > 0 || isOpen,
+  'py-6 bg-transparent border-transparent': !(y > 0 || isOpen)
+}"
   >
     <nav class="flex flex-row items-center justify-between max-w-[1400px] mx-auto">
       <div
@@ -179,3 +178,12 @@ function handleNav(href: string) {
     </nav>
   </header>
 </template>
+
+<style scoped>
+/* small tweak so the mobile overlay sits below the header height on most devices.
+   If you need a different offset, adjust the top value above (top-16). */
+@media (max-width: 768px) {
+  header { --header-height: 4rem; }
+}
+
+</style>
